@@ -1,0 +1,46 @@
+.menu {
+    display: none;
+    position: absolute;
+    right: -60px;
+    top: -18px;
+}
+
+ul {
+    width: 650px;
+    margin: 0 auto;
+}
+
+li {
+    position: relative;
+    width: 650px;
+}
+
+li:hover .menu {
+    display: block;
+}
+
+ .green-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 2px;
+    cursor: pointer;
+    padding: 6px 6px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.red-button {
+    background-color: rgb(220, 73, 73);
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 2px;
+    cursor: pointer;
+    padding: 6px 6px;
+    font-size: 16px;
+    border-radius: 5px;
+}
